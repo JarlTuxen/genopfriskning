@@ -33,7 +33,7 @@ public class Main {
 
     public static void testDoesArrayListContainString(){
         System.out.println("--- ArrayList ---");
-        ArrayList<String> myList = new ArrayList<String>();
+        ArrayList<String> myList = new ArrayList<>();
         myList.add("Abe");
         myList.add("Nisse");
         myList.add("Hval");
@@ -110,8 +110,6 @@ public class Main {
         for (int j=0; j<n-1;j++){
             System.out.print(" " + tegn);
         }
-
-
     }
 
     public static void testKvadrat(){

@@ -100,7 +100,6 @@ public class Main {
             }
             System.out.println();
         }
-
     }
 
     public static void printRow(int n, String tegn){
@@ -117,7 +116,6 @@ public class Main {
         kvadrat(6, "*");
         kvadrat(0, "+");
         kvadrat(1, "=");
-
     }
 
     public static void properCase(String text){
@@ -139,7 +137,6 @@ public class Main {
 
     public static void testProperCase(){
         properCase("ABCDE aLFALINK AbD");
-
     }
 
     public static void sortering(){

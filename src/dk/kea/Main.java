@@ -50,7 +50,7 @@ public class Main {
     }
 
     public static boolean doesArraylistContainString(ArrayList<String> liste, String text){
-        int index = liste.indexOf(text);
+        //int index = liste.indexOf(text);
 
         if (liste.contains(text)) {
             System.out.println("The String has been found");

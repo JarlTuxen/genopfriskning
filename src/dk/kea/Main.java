@@ -39,13 +39,13 @@ public class Main {
             System.out.println("abe findes");
         }
         else{
-            System.out.println("abe tilføjet");
+            System.out.println("abe findes ikke");
         }
         if (doesArraylistContainString(myList, "Abe")) {
             System.out.println("Abe findes");
         }
         else{
-            System.out.println("Abe tilføjet");
+            System.out.println("Abe findes ikke");
         }
     }
 

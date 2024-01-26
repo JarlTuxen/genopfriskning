@@ -8,25 +8,25 @@ public class Main {
 
     public static void main(String[] args) {
         //Arraylist
-        testDoesArrayListContainString();
+        //testDoesArrayListContainString();
 
         //Bog
-        testBog();
+        //testBog();
 
         //Hvor tit skal græsset slås?
-        hvorTit();
+        //hvorTit();
 
         //Kvadrat
-        testKvadrat();
+        //testKvadrat();
 
         //Proper Case
-        testProperCase();
+        //testProperCase();
 
         //sortering
-        sortering();
+        //sortering();
 
         //Søgning
-        testSearch();
+        //testSearch();
     }
 
     public static void testDoesArrayListContainString(){

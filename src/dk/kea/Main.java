@@ -7,26 +7,26 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	    //Arraylist
-        //testDoesArrayListContainString();
+        //Arraylist
+        testDoesArrayListContainString();
 
         //Bog
-        //testBog();
+        testBog();
 
         //Hvor tit skal græsset slås?
-        //hvorTit();
+        hvorTit();
 
         //Kvadrat
-        //testKvadrat();
+        testKvadrat();
 
         //Proper Case
-        //testProperCase();
+        testProperCase();
 
         //sortering
-        //sortering();
+        sortering();
 
         //Søgning
-        //testSearch();
+        testSearch();
     }
 
     public static void testDoesArrayListContainString(){
@@ -39,13 +39,13 @@ public class Main {
             System.out.println("abe findes");
         }
         else{
-            System.out.println("abe findes ikke");
+            System.out.println("abe tilføjet");
         }
         if (doesArraylistContainString(myList, "Abe")) {
             System.out.println("Abe findes");
         }
         else{
-            System.out.println("Abe findes ikke");
+            System.out.println("Abe tilføjet");
         }
     }
 
@@ -131,6 +131,7 @@ public class Main {
             }
             System.out.print(" ");
         }
+        System.out.println();
     }
 
     public static void testProperCase(){

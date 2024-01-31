@@ -26,7 +26,7 @@ public class Main {
         //sortering();
 
         //Søgning
-        //testSearch();
+        testSearch();
     }
 
     public static void testDoesArrayListContainString(){
@@ -164,9 +164,10 @@ public class Main {
     }
 
     public static void testSearch(){
-        String[] myWords = {"Alfa", "Beta", "Delta", "Omikron"};
+        String[] myWords = {"Alfa", "Beta", "Delta", "Omikron", "Alfa"};
         System.out.println(Arrays.toString(myWords));
         System.out.println("Gamma: " + search(myWords, "Gamma"));
         System.out.println("Omikron: " + search(myWords, "Omikron"));
+        System.out.println("Alfa: " + search(myWords, "Alfa"));
     }
 }
